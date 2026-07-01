@@ -34,12 +34,14 @@ export const Route = createFileRoute("/")({
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
+      { property: "og:image", content: "/bullbanner.jpg" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Bull Smart Chain ($BSC)" },
       {
         name: "twitter:description",
         content: "Stay Bullish. Build Strong. Join the Bull Smart Chain herd.",
       },
+      { name: "twitter:image", content: "/bullbanner.jpg" },
     ],
     links: [{ rel: "canonical", href: "/" }],
     scripts: [

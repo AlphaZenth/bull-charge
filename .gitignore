@@ -11,10 +11,16 @@ node_modules
 dist
 dist-ssr
 .output
+.vercel
 .vinxi
 .tanstack/**
 .nitro
 *.local
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
 
 # Wrangler / Cloudflare
 .wrangler/

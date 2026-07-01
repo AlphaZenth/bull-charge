@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import bullLogo from "@/assets/bullogo.jpg.asset.json";
+import bullLogo from "@/assets/bullogo.jpg";
 
 export function CTA() {
   return (
@@ -10,7 +10,7 @@ export function CTA() {
           <motion.img
             animate={{ y: [0, -12, 0], rotate: [-4, 4, -4] }}
             transition={{ duration: 5, repeat: Infinity }}
-            src={bullLogo.url}
+            src={bullLogo}
             alt=""
             className="relative mx-auto h-24 w-24 rounded-2xl object-cover ring-2 ring-primary glow-gold"
           />

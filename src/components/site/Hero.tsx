@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Rocket, Users, Zap, Shield, TrendingUp } from "lucide-react";
-import bullLogo from "@/assets/bullogo.jpg.asset.json";
+import bullLogo from "@/assets/bullogo.jpg";
 import { Particles } from "./Particles";
 
 const SPEECHES = ["GM Bulls! 🐂", "Stay Bullish!", "Buy. Hold. Charge!", "Welcome to Bull Smart Chain!"];
@@ -156,7 +156,7 @@ export function Hero() {
             className="relative z-10 overflow-hidden rounded-[2.5rem] ring-4 ring-primary/60 glow-gold-strong"
           >
             <img
-              src={bullLogo.url}
+              src={bullLogo}
               alt="Bull Smart Chain mascot"
               className="h-[340px] w-[340px] object-cover sm:h-[440px] sm:w-[440px]"
               draggable={false}

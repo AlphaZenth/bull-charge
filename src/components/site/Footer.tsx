@@ -1,5 +1,5 @@
 import { Send } from "lucide-react";
-import bullLogo from "@/assets/bullogo.jpg.asset.json";
+import bullLogo from "@/assets/bullogo.jpg";
 
 function XIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
@@ -14,7 +14,7 @@ export function Footer() {
     <footer className="relative border-t border-white/5 py-10">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-6 px-6 sm:flex-row">
         <div className="flex items-center gap-3">
-          <img src={bullLogo.url} alt="" className="h-10 w-10 rounded-full object-cover ring-2 ring-primary/50" />
+          <img src={bullLogo} alt="" className="h-10 w-10 rounded-full object-cover ring-2 ring-primary/50" />
           <div>
             <p className="font-display font-bold">Bull <span className="text-gradient-gold">Smart Chain</span></p>
             <p className="text-xs text-muted-foreground">Built for the community.</p>

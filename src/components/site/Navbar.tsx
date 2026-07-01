@@ -23,10 +23,12 @@ export function Navbar() {
           <a href="#community" className="hover:text-primary transition-colors">Community</a>
         </div>
         <a
-          href="#launch"
+          href="https://four.meme/en/token/0x5ac0e1d4ff5665cfd4c3cd39bc5dc24ed82affff"
+          target="_blank"
+          rel="noopener noreferrer"
           className="rounded-xl bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground transition-all hover:scale-105 hover:glow-gold-strong"
         >
-          Launch App
+          BUY $BSC
         </a>
       </nav>
     </motion.header>

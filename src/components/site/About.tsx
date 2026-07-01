@@ -51,6 +51,12 @@ export function About() {
             <p className="font-semibold text-white">
               Together we build. Together we charge. <span className="text-gradient-gold">Together we stay bullish.</span>
             </p>
+            <div className="mt-6 rounded-2xl border border-primary/30 bg-black/50 px-6 py-4">
+              <p className="text-sm font-semibold text-white">Contract Address (CA)</p>
+              <p className="mt-2 font-mono text-sm text-primary break-all">
+                0x5ac0e1d4ff5665cfd4c3cd39bc5dc24ed82affff
+              </p>
+            </div>
           </motion.div>
         </div>
       </div>

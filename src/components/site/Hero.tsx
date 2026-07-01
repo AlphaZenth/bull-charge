@@ -76,21 +76,34 @@ export function Hero() {
             at its core. Built for believers. Driven by holders. Ready to charge. 🚀
           </motion.p>
 
+          {/* CA Info */}
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.35 }}
+            className="mt-6 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-2 text-sm font-mono text-primary"
+          >
+            <span>CA:</span>
+            <span className="font-semibold">0x5ac0e1d4ff5665cfd4c3cd39bc5dc24ed82affff</span>
+          </motion.div>
+
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="mt-8 flex flex-col gap-3 sm:flex-row"
+            className="mt-4 flex flex-col gap-3 sm:flex-row"
             id="launch"
           >
             <motion.a
               whileHover={{ scale: 1.04 }}
               whileTap={{ scale: 0.97 }}
-              href="#community"
+              href="https://four.meme/en/token/0x5ac0e1d4ff5665cfd4c3cd39bc5dc24ed82affff"
+              target="_blank"
+              rel="noopener noreferrer"
               className="group inline-flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-[#FF8C00] via-[#F6B300] to-[#FFD86B] px-7 py-4 font-semibold text-black shadow-[0_0_40px_rgba(246,179,0,0.4)] transition-all hover:shadow-[0_0_60px_rgba(246,179,0,0.7)]"
             >
               <Rocket className="h-5 w-5 transition-transform group-hover:-rotate-12" />
-              Launch App
+              BUY $BSC
             </motion.a>
             <motion.a
               whileHover={{ scale: 1.04 }}

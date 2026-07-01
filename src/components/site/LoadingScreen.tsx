@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import bullLogo from "@/assets/bullogo.jpg.asset.json";
+import bullLogo from "@/assets/bullogo.jpg";
 
 export function LoadingScreen() {
   const [done, setDone] = useState(false);
@@ -36,7 +36,7 @@ export function LoadingScreen() {
           >
             <div className="absolute inset-0 blur-3xl bg-primary/40 rounded-full" />
             <img
-              src={bullLogo.url}
+              src={bullLogo}
               alt="Bull Smart Chain"
               className="relative h-32 w-32 rounded-full object-cover ring-4 ring-primary glow-gold-strong"
             />

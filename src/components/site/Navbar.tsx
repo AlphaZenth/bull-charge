@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import bullLogo from "@/assets/bullogo.jpg.asset.json";
+import bullLogo from "@/assets/bullogo.jpg";
 
 export function Navbar() {
   return (
@@ -11,7 +11,7 @@ export function Navbar() {
     >
       <nav className="flex w-full max-w-6xl items-center justify-between rounded-2xl border border-white/10 bg-black/50 px-4 py-3 backdrop-blur-xl">
         <a href="#top" className="flex items-center gap-2">
-          <img src={bullLogo.url} alt="" className="h-9 w-9 rounded-full object-cover ring-2 ring-primary/60" />
+          <img src={bullLogo} alt="" className="h-9 w-9 rounded-full object-cover ring-2 ring-primary/60" />
           <span className="font-display font-bold tracking-tight">
             Bull <span className="text-gradient-gold">Smart Chain</span>
           </span>
